@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
   const scrollAnim = useScrollAnimation();
 
   return (
-    <footer className="dark:to-black py-8">
+    <footer className="bg-gradient-to-br from-blue-50 to-purple-50 dark:from-black dark:to-gray-900 py-8">
       <div className="container mx-auto px-6 text-center">
         <motion.p
           className="mb-4"

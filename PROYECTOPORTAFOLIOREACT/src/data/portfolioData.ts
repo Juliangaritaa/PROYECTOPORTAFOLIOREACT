@@ -7,16 +7,15 @@ export const portfolioData = {
     bio:"",
 
     skills: [
-        { name: "React", level: 70 },
-        { name: "TypeScript", level: 65 },
-        { name: "HTML/CSS", level: 50 },
-        { name: "Node.js", level: 70 },
-        { name: "Git", level: 75 },
-        { name: "C#", level: 70 },
-        { name: "Java", level: 70 },
-        { name: "PHP", level: 55 },
-        { name: "SQL", level: 80 },
-        { name: "Tailwind CSS", level: 55 }
+        { name: "React", level: 40 },
+        { name: "TypeScript", level: 30 },
+        { name: "HTML/CSS", level: 20 },
+        { name: "Node.js", level: 30 },
+        { name: "Git", level: 60 },
+        { name: "C#", level: 50 },
+        { name: "Java", level: 30 },
+        { name: "PHP", level: 20 },
+        { name: "SQL", level: 50 }
     ],
 
     projects: [
@@ -111,6 +110,33 @@ export const portfolioData = {
             tech: ["JAVA", "CSS", "JavaScript"],
             github: "https://github.com/Juliangaritaa/BibliotecaProyectoJAVA.git",
             features: ["Full CRUD", "Filters", "Responsive desing", "Dynamic Tables", "Captcha"],
+            images: [
+                {
+                    url: "/images/proyecto-biblioteca-1.jpg",
+                    alt: "Pantalla principal de la aplicación NéctarRomano",
+                    caption: "Catalogo Principal sin logueo"
+                },
+                {
+                    url: "/images/proyecto-biblioteca-2.jpg",
+                    alt: "Pantalla principal de la aplicación NéctarRomano",
+                    caption: "Catalogo Principal con logueo"
+                },
+                {
+                    url: "/images/proyecto-biblioteca-3.jpg",
+                    alt: "Pantalla principal de la aplicación NéctarRomano",
+                    caption: "Prestamos de Usuario"
+                },
+                {
+                    url: "/images/proyecto-biblioteca-4.jpg",
+                    alt: "Pantalla principal de la aplicación NéctarRomano",
+                    caption: "Gestion de Libros"
+                },
+                {
+                    url: "/images/proyecto-biblioteca-5.jpg",
+                    alt: "Pantalla principal de la aplicación NéctarRomano",
+                    caption: "Cuentas de Usuario"
+                }
+            ]
         }
     ],
 

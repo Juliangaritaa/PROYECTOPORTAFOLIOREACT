@@ -17,7 +17,7 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
     return (
-        <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-900 to-black pt-20">
+        <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-blue-50 to-purple-50 dark:from-gray-900 dark:to-black">
             <motion.div 
                 className="text-center max-w-4xl mx-auto px-6"
                 variants={staggerContainer}
