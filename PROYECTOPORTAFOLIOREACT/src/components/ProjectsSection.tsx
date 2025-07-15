@@ -203,7 +203,7 @@ const ProjectSection: React.FC = () => (
                     className="inline-flex items-center gap-2 px-6 py-3 bg-gray-800 dark:bg-gray-700 text-white rounded-lg hover:bg-gray-700 dark:hover:bg-gray-600 transition-colors"
                 >
                     <Github className="w-5 h-5" />
-                    See more on GitHub
+                    See more on GitHub!
                 </a>
             </div>
         </div>

@@ -4,13 +4,13 @@ import { portfolioData } from '../data/portfolioData';
 
 const ContactCard: React.FC =() => (
     <div className="bg-black rounded-lg shadow-lg p-8 max-w-2xl mx-auto min-h-screen flex items-center justify-center">
-        <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">¿Por qué contratarme?</h3>
+        <h3 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Why hire me?</h3>
         <ul className="text-left space-y-3 text-gray-600 dark:text-gray-300">
-        <li>• <strong>Motivación:</strong> Tengo mucha energía y ganas de aprender</li>
-        <li>• <strong>Fundamentos sólidos:</strong> Buena base técnica en tecnologías modernas</li>
-        <li>• <strong>Adaptabilidad:</strong> Rápido para aprender nuevas herramientas</li>
-        <li>• <strong>Compromiso:</strong> Dedicado a escribir código limpio y mantenible</li>
-        <li>• <strong>Colaboración:</strong> Excelente para trabajar en equipo</li>
+        <li>• <strong>Motivation:</strong> I have a lot of energy and desire to learn</li>
+        <li>• <strong>Solid foundations:</strong> Good technical base in modern technologies</li>
+        <li>• <strong>Adaptability:</strong> Quick to learn new tools</li>
+        <li>• <strong>Commitment:</strong> Dedicated to writing clean and maintainable code</li>
+        <li>• <strong>Collaboration:</strong> Excellent for teamwork</li>
         </ul>
   </div>
 );
@@ -18,10 +18,9 @@ const ContactCard: React.FC =() => (
 const ContactSection: React.FC = () => (
   <section id="contact" className="py-20 dark:to-black">
     <div className="container mx-auto px-6 max-w-4xl text-center">
-      <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-6">¡Trabajemos Juntos!</h2>
+      <h2 className="text-4xl font-bold text-gray-800 dark:text-white mb-6">¡Work Together!</h2>
       <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-        Estoy buscando oportunidades para comenzar mi carrera profesional y contribuir
-        a proyectos emocionantes. ¿Tienes una oportunidad que podría ser perfecta para mí?
+        I'm looking for opportunities to kick-start my career and contribute to exciting projects. Do you have an opportunity that could be perfect for me?
       </p>
       <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
         <a
@@ -29,7 +28,7 @@ const ContactSection: React.FC = () => (
           className="flex items-center gap-2 px-8 py-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
         >
           <Mail className="w-5 h-5" />
-          Enviar Email
+          Send Email
         </a>
       </div>
       <ContactCard />
