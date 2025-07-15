@@ -1,10 +1,10 @@
 export const portfolioData = {
     name:"Julián Felipe Angarita Alarcón",
-    title:"FullStack Developer",
+    title:"Software Analyst and Developer",
     location:"Sogamoso, Colombia",
     email:"julian.angarita0810@gmail.com",
     github:"https://github.com/Juliangaritaa",
-    bio:"",
+    bio:"Software Analyst and Developer, responsible for web and mobile applications, with experience in training at SENA and knowledge of development using modern technologies.",
 
     skills: [
         { name: "React", level: 70 },
@@ -66,11 +66,11 @@ export const portfolioData = {
         },
         
         {
-            title: "Mobile Application NéctarRomano",
-            description: "Mobile app for managing a store's inventory, viewing menu reports with spreadsheet export, and intuitive order management for users.",
-            tech: ["C#", "Maui", "JavaScript"],
+            title: "Personal Finance Web Application",
+            description: "Personal finance management app with JWT registration and login. Manages expenses, income, and bank accounts and cards. Featuring a modern, intuitive, and user-friendly design.",
+            tech: ["React", "Node.js", "TypeScript", "Tailwind CSS", "APIs"],
             github: "https://github.com/Juliangaritaa/ProyectAppNectarRomano.git",
-            features: ["CRUD Completo", "Filtros por categoria", "Responsive desing", "Dynamic cards", "Informe"]
+            features: ["CRUD Completo", "Filters", "Responsive desing", "Dynamic cards", "Informe"]
         }
     ],
 
