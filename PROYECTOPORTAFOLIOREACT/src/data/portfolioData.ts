@@ -1,0 +1,97 @@
+export const portfolioData = {
+    name:"Julián Felipe Angarita Alarcón",
+    title:"FullStack Developer",
+    location:"Sogamoso, Colombia",
+    email:"julian.angarita0810@gmail.com",
+    github:"https://github.com/Juliangaritaa",
+    bio:"",
+
+    skills: [
+        { name: "React", level: 70 },
+        { name: "TypeScript", level: 65 },
+        { name: "HTML/CSS", level: 50 },
+        { name: "Node.js", level: 70 },
+        { name: "Git", level: 75 },
+        { name: "C#", level: 70 },
+        { name: "Java", level: 70 },
+        { name: "PHP", level: 55 },
+        { name: "SQL", level: 80 },
+        { name: "Tailwind CSS", level: 55 }
+    ],
+
+    projects: [
+        {
+            title: "Mobile Application NéctarRomano",
+            description: "Mobile app for managing a store's inventory, viewing menu reports with spreadsheet export, and intuitive order management for users.",
+            tech: ["C#", "Maui", "JavaScript"],
+            github: "https://github.com/Juliangaritaa/ProyectAppNectarRomano.git",
+            features: ["Full CRUD", "Category Filters", "Responsive desing", "Dynamic cards", "Report"],
+            images: [
+                {
+                    url: "/images/NectarRomano-1.jpg",
+                    alt: "Pantalla principal de la aplicación NéctarRomano",
+                    caption: "Interfaz principal con filtros"
+                },
+                {
+                    url: "/images/NectarRomano-2.jpg",
+                    alt: "Gestión de inventario",
+                    caption: "Módulo de creación de productos"
+                },
+                {
+                    url: "/images/NectarRomano-3.jpg",
+                    alt: "Reportes y filtros",
+                    caption: "Modulo de Actualizacion de productos"
+                },
+                {
+                    url: "/images/NectarRomano-4.jpg",
+                    alt: "Pantalla principal de la aplicación NéctarRomano",
+                    caption: "Modulo de creación de categoria"
+                },
+                {
+                    url: "/images/NectarRomano-5.jpg",
+                    alt: "Gestión de inventario",
+                    caption: "Módulo de pedidos, con cards intuitivas y dinamicas"
+                },
+                {
+                    url: "/images/NectarRomano-6.jpg",
+                    alt: "Reportes y filtros",
+                    caption: "Sistema de reportes"
+                },
+                {
+                    url: "/images/NectarRomano-7.jpg",
+                    alt: "Reportes y filtros",
+                    caption: "Sistema de reportes"
+                }
+            ]
+        },
+        
+        {
+            title: "Mobile Application NéctarRomano",
+            description: "Mobile app for managing a store's inventory, viewing menu reports with spreadsheet export, and intuitive order management for users.",
+            tech: ["C#", "Maui", "JavaScript"],
+            github: "https://github.com/Juliangaritaa/ProyectAppNectarRomano.git",
+            features: ["CRUD Completo", "Filtros por categoria", "Responsive desing", "Dynamic cards", "Informe"]
+        }
+    ],
+
+    education: [
+        {
+        degree: "Bachiller Técnico",
+        institution: "Politécnico Álvaro Gonzáles Santana",
+        year: "2022",
+        description: "Formación bachiller técnica en desarrollo tanto conocimientos como habilidades, actitudes y valores en los estudiantes, preparándolos para la vida activa y el ejercicio de la ciudadanía."
+        },
+        {
+        degree: "Tecnólogo en Análisi y Desarrollo de Software",
+        institution: "SENA CIMM",
+        year: "2023",
+        description: "Formación técnica en programación y desarrollo de software."
+        },
+    ],
+
+    certifications: [
+        { name: "Certificación en básico de derecho de Autor y derechos conexos - Dirección Nacional de Derecho de Autor.", issuer: "Plataforma Online", year: "2025" },
+        { name: "JavaScript Fundamentals", issuer: "Plataforma Online", year: "2025" },
+        { name: "Scrum Fundamentals Certified - SCRUMStudy Fourth Edition", issuer: "Plataforma Online", year: "2025" }
+    ]
+};
