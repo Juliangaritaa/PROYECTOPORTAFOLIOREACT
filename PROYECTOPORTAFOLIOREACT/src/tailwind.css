@@ -20,6 +20,10 @@
   /* 2 */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ::before,
 ::after {
   --tw-content: '';
