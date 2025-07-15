@@ -26,7 +26,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
             >
                 <motion.div className="mb-8" variants={staggerItem}>
                     <motion.div 
-                        className="w-32 h-32 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-6 flex items-center justify-center"
+                        className="w-24 h-24 sm:w-32 sm:h-32 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-4 sm:mb-6 flex items-center justify-center"
                         variants={scaleIn}
                         whileHover={{ scale: 1.1 }}
                         transition={{ duration: 0.3 }}
