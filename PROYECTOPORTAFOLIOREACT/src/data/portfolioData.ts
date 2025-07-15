@@ -4,7 +4,7 @@ export const portfolioData = {
     location:"Sogamoso, Colombia",
     email:"julian.angarita0810@gmail.com",
     github:"https://github.com/Juliangaritaa",
-    bio:"Software Analyst and Developer, responsible for web and mobile applications, with experience in training at SENA and knowledge of development using modern technologies.",
+    bio:"",
 
     skills: [
         { name: "React", level: 70 },
@@ -70,7 +70,47 @@ export const portfolioData = {
             description: "Personal finance management app with JWT registration and login. Manages expenses, income, and bank accounts and cards. Featuring a modern, intuitive, and user-friendly design.",
             tech: ["React", "Node.js", "TypeScript", "Tailwind CSS", "APIs"],
             github: "https://github.com/Juliangaritaa/ProyectAppNectarRomano.git",
-            features: ["CRUD Completo", "Filters", "Responsive desing", "Dynamic cards", "Informe"]
+            features: ["Full CRUD", "Filters", "Responsive desing", "Dynamic cards", "Report"],
+            images: [
+                {
+                    url: "/images/finanzas-personales-1.jpg",
+                    alt: "Pantalla principal de la aplicación NéctarRomano",
+                    caption: "Login"
+                },
+                {
+                    url: "/images/finanzas-personales-2.jpg",
+                    alt: "Pantalla principal de la aplicación NéctarRomano",
+                    caption: "Tablero Financiero"
+                },
+                {
+                    url: "/images/finanzas-personales-3.jpg",
+                    alt: "Pantalla principal de la aplicación NéctarRomano",
+                    caption: "Registro Transacciones de Usuario"
+                },
+                {
+                    url: "/images/finanzas-personales-4.jpg",
+                    alt: "Pantalla principal de la aplicación NéctarRomano",
+                    caption: "Historial de Transacciones"
+                },
+                {
+                    url: "/images/finanzas-personales-5.jpg",
+                    alt: "Pantalla principal de la aplicación NéctarRomano",
+                    caption: "Categorias de Usuario"
+                },
+                {
+                    url: "/images/finanzas-personales-6.jpg",
+                    alt: "Pantalla principal de la aplicación NéctarRomano",
+                    caption: "Cuentas de Usuario"
+                }
+            ]
+        },
+        
+        {
+            title: "Library Administration Web Application",
+            description: "Web application developed for the management of a local library, featuring a complete resource for managing books, customers, authors, and the application's superadmin. It features a responsive and professional design, with a captcha check at login for authenticated users.",
+            tech: ["JAVA", "CSS", "JavaScript"],
+            github: "https://github.com/Juliangaritaa/BibliotecaProyectoJAVA.git",
+            features: ["Full CRUD", "Filters", "Responsive desing", "Dynamic Tables", "Captcha"],
         }
     ],
 
