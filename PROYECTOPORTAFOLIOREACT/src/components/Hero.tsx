@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Mail, ChevronDown, MapPin, User } from 'lucide-react';
+import { Github, Mail, ChevronDown, MapPin } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
 import { 
     fadeIn, 
