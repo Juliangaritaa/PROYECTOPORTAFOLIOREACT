@@ -26,12 +26,17 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
             >
                 <motion.div className="mb-8" variants={staggerItem}>
                     <motion.div 
-                        className="w-24 h-24 sm:w-32 sm:h-32 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-4 sm:mb-6 flex items-center justify-center"
+                        className="w-36 h-36 sm:w-44 sm:h-44 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-4 sm:mb-6 flex items-center justify-center"
                         variants={scaleIn}
                         whileHover={{ scale: 1.1 }}
                         transition={{ duration: 0.3 }}
                     >
-                        <User className="w-16 h-16 text-white" />
+                    <img 
+                        src="/images/foto-con-traje-pagina.jpg" 
+                        alt="Foto de perfil" 
+                        className="w-[92%] h-[92%] object-cover rounded-full"
+                    />
+
                     </motion.div>
                     
                     <motion.h1 
