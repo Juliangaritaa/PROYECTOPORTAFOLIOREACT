@@ -171,11 +171,6 @@ export const portfolioData = {
                     caption: "A daily box opened, with a initial amount."
                 },
                 {
-                    url: "/images/SKAY-caja.PNG",
-                    alt: "Boxes module.",
-                    caption: "A daily box opened, with a initial amount."
-                },
-                {
                     url: "/images/SKAY-reportes.PNG",
                     alt: "Reports with sales analytics.",
                     caption: "Reports with sales analytics by period."
