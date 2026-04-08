@@ -194,7 +194,7 @@ export const portfolioData = {
         },
         {
             title: "SISTELCO Web Application",
-            description: "Informative web application for a telecommunications company. The web has several informative sections.",
+            description: "Informative web application for SISTELCO, a telecommunications company. The web has several informative sections.",
             tech: ["React", "Tailwind", "TypeScript", "HTML"],
             github: "https://github.com/Juliangaritaa/proyecto-sistelcoPage-react.git",
             features: ["Responsive desing", "Dynamic Information"],
