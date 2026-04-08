@@ -191,6 +191,20 @@ export const portfolioData = {
                     caption: "List all the users in a table."
                 }
             ]
+        },
+        {
+            title: "SISTELCO Web Application",
+            description: "Informative web application for a telecommunications company. The web has several informative sections.",
+            tech: ["React", "Tailwind", "TypeScript", "HTML"],
+            github: "https://github.com/Juliangaritaa/proyecto-sistelcoPage-react.git",
+            features: ["Responsive desing", "Dynamic Information"],
+            images: [
+                {
+                    url: "/images/SISTELCO-INDEX.png",
+                    alt: "INDEX",
+                    caption: "INDEX"
+                }
+            ]
         }
     ],
 
