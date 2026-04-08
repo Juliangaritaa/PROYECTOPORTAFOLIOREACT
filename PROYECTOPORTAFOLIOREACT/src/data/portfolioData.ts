@@ -137,6 +137,65 @@ export const portfolioData = {
                     caption: "Cuentas de Usuario"
                 }
             ]
+        },
+        {
+            title: "Heladería SKAY local Web Application",
+            description: "Web application developed for the management of a icecream local, featuring a complete resource for managing products, categories, sales, boxes, reports, users. It features a responsive and professional design. The application has two roles, admin and seller, each role has different permissions.",
+            tech: ["React", "Tailwind", "TypeScript", "Deno", "SQL"],
+            github: "https://github.com/Juliangaritaa/SISTEMA_HELADERIA_SKAY_REACT.git",
+            features: ["Full CRUD", "Filters", "Responsive desing", "Dynamic Tables"],
+            images: [
+                {
+                    url: "/images/SKAY-login.PNG",
+                    alt: "Login",
+                    caption: "Login"
+                },
+                {
+                    url: "/images/SKAY-productos.PNG",
+                    alt: "Products module.",
+                    caption: "Products table"
+                },
+                {
+                    url: "/images/SKAY-categorias.PNG",
+                    alt: "Categories module",
+                    caption: "Categories table"
+                },
+                {
+                    url: "/images/SKAY-ventas.PNG",
+                    alt: "Sales module.",
+                    caption: "Sales module."
+                },
+                {
+                    url: "/images/SKAY-caja.PNG",
+                    alt: "Boxes module.",
+                    caption: "A daily box opened, with a initial amount."
+                },
+                {
+                    url: "/images/SKAY-caja.PNG",
+                    alt: "Boxes module.",
+                    caption: "A daily box opened, with a initial amount."
+                },
+                {
+                    url: "/images/SKAY-reportes.PNG",
+                    alt: "Reports with sales analytics.",
+                    caption: "Reports with sales analytics by period."
+                },
+                {
+                    url: "/images/SKAY-reportes2.PNG",
+                    alt: "Reports with sales analytics.",
+                    caption: "Reports with sales analytics by period."
+                },
+                {
+                    url: "/images/SKAY-reportes3.PNG",
+                    alt: "Reports with sales analytics.",
+                    caption: "Reports with sales analytics by period."
+                },
+                {
+                    url: "/images/SKAY-usuarios.PNG",
+                    alt: "Users module.",
+                    caption: "List all the users in a table."
+                }
+            ]
         }
     ],
 
