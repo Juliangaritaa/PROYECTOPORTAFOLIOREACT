@@ -203,6 +203,36 @@ export const portfolioData = {
                     url: "/images/SISTELCO-INDEX.png",
                     alt: "INDEX",
                     caption: "INDEX"
+                },
+                {
+                    url: "/images/SISTELCO-INDEX2.png",
+                    alt: "INDEX",
+                    caption: "INDEX"
+                },
+                {
+                    url: "/images/SISTELCO-INDEX3.png",
+                    alt: "INDEX",
+                    caption: "INDEX"
+                },
+                {
+                    url: "/images/SISTELCO-INDEX4.png",
+                    alt: "INDEX",
+                    caption: "INDEX"
+                },
+                {
+                    url: "/images/SISTELCO-INDEX5.png",
+                    alt: "INDEX",
+                    caption: "INDEX"
+                },
+                {
+                    url: "/images/SISTELCO-INDEX6.png",
+                    alt: "INDEX",
+                    caption: "INDEX"
+                },
+                {
+                    url: "/images/SISTELCO-INDEX7.png",
+                    alt: "INDEX",
+                    caption: "INDEX"
                 }
             ]
         }
